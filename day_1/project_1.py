@@ -7,13 +7,13 @@ def base_input(msg:str) -> str:
     return(my_input.title())
 
 def get_city_name() -> str:
-    msg = 'What\'s the city that you grew up?\n>>>'
+    msg = 'What\'s the city that you grew up?\n>>> '
     return(base_input(msg=msg))
 
 #3. Ask the user for the name of a pet.
 
 def get_pet_name() -> str:
-    msg = 'What\'s your pet\'s name?\n>>>'
+    msg = 'What\'s your pet\'s name?\n>>> '
     return(base_input(msg=msg))
 
 #4. Combine the name of their city and pet and show them their band name.
